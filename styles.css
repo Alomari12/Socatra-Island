@@ -1,0 +1,232 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+
+body{
+   
+  height: 50%;
+
+
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 3px dotted black;
+    
+    
+}
+
+.hero, .activities, .guide {
+    flex: 1; /* This makes each row take up equal space */
+    border: 1px solid transparent; /* Optional: for visual clarity */
+    border-bottom: 1px dashed red ;
+   
+}
+
+.hero {
+    background-image: url("images/socatra.jpg");
+    background-size: cover; 
+    
+}
+
+#title {
+     margin-top: 10px;
+     border-radius: 20px;
+     font-family: "Indie Flower", cursive;
+     background: 20px white;
+     margin-left: 550px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+     
+   
+ 
+}
+#paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-top: -10px;
+    background: 10px  lightpink;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.activities {
+    background: #E8DAEF;
+
+    
+}
+#second-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    font-size: 20px;
+}
+
+#blood-tree-image, #ocean-image, #night-image {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+
+#First-item-title, #Third-item-title, #Second-item-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-three, .item-one, .item-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    
+    
+    
+}
+#First-item-description, #Second-item-description, #Third-item-description {
+    margin-top: -10px;
+    margin-left: 50px;
+}
+#First-item-title, #Second-item-title, #Third-item-title {
+   font-family: "Indie Flower", cursive;
+   font-weight: 900;
+}
+
+
+
+
+
+
+.guide {
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 150px;
+    background: lightcoral;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    border-top-right-radius: 2%;
+     border-top-left-radius: 2%;
+     background-size: 200px;
+     border-bottom: 5px solid lightseagreen;
+
+    
+    
+}
+
+#tourist-avatar {
+    width: 60px;
+    border-radius: 5%;
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-top: 40px;
+    
+}
+.avatar-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    
+}
+#avatar-caption {
+    margin-left: 20px;
+}
+#your-guide, #tourist-caption {
+      margin-bottom: 1px;
+}
+#guide-name {
+      margin-top: -10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+body {
+      text-align: center;  
+     
+}
+
+.hero {
+    background-image: url("images/socatra.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+#title {
+     background: 100px white;
+     margin-top: 50px;
+     padding: 20px;
+     border-radius: 20px;
+     font-family: "Indie Flower", cursive;
+     margin-left: 300px;
+}
+
+
+
+
+.hero-paragraph {
+     line-height:20px;
+     text-align:center; 
+     background: 20px pink;
+     padding: 15px;
+     border-radius: 20px;
+     margin-left: 300px;
+     margin-top: -10px;
+}
+
+.activities {
+    background: lightgreen;
+    margin-top: 18px
+}
+*/
